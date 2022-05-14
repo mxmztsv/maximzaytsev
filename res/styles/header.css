@@ -1,0 +1,43 @@
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+}
+
+.logo {
+    font-family: 'Courier Prime', monospace;
+    font-weight: bold;
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+}
+
+.logo span {
+    position: relative;
+    left: -15px;
+}
+
+.navbar__item {
+    color: white;
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+.navbar__item:hover {
+    color: #009688;
+}
+
+.btn {
+    background: #009688;
+    margin-left: 20px;
+}
+
+.btn:hover {
+    background: transparent;
+    border: #009688 1px solid;
+    color: #009688;
+}
