@@ -6,6 +6,8 @@ header {
     padding: 20px;
     width: 100%;
     position: fixed;
+    background: #202020;
+    z-index: 99;
 }
 
 .logo {
@@ -32,12 +34,13 @@ header {
 }
 
 .btn {
-    background: #009688;
-    margin-left: 20px;
-}
-
-.btn:hover {
     background: transparent;
     border: #009688 1px solid;
     color: #009688;
+    text-transform: uppercase;
+    /*margin-left: 20px;*/
+}
+
+.btn:hover {
+    background: #009688;
 }

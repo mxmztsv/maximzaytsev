@@ -13,25 +13,26 @@
     <link rel="stylesheet" href="/res/styles/index.css">
     <link rel="stylesheet" href="/res/styles/header.css">
     <link rel="stylesheet" href="/res/styles/about.css">
+    <link rel="stylesheet" href="/res/styles/works.css">
 
-    	<script type="text/javascript">
-    		window._mNHandle = window._mNHandle || {};
-    		window._mNHandle.queue = window._mNHandle.queue || [];
-    		medianet_versionId = "3121199";
-    	</script>
-    	<script src="https://contextual.media.net/dmedianet.js?cid=8CUA1RS8J" async="async"></script>
+    <script type="text/javascript">
+        window._mNHandle = window._mNHandle || {};
+        window._mNHandle.queue = window._mNHandle.queue || [];
+        medianet_versionId = "3121199";
+    </script>
+    <script src="https://contextual.media.net/dmedianet.js?cid=8CUA1RS8J" async="async"></script>
 
 </head>
 <body>
 <div id="654736436">
-	<script type="text/javascript">
-		try {
-			window._mNHandle.queue.push(function (){
-				window._mNDetails.loadTag("654736436", "300x250", "654736436");
-			});
-		}
-		catch (error) {}
-	</script>
+    <script type="text/javascript">
+        try {
+            window._mNHandle.queue.push(function () {
+                window._mNDetails.loadTag("654736436", "300x250", "654736436");
+            });
+        } catch (error) {
+        }
+    </script>
 </div>
 <header>
     <p class="logo">
@@ -39,14 +40,14 @@
         <span class="teal">ZTSV</span>
     </p>
     <div class="header__navbar">
-        <a href="#" class="navbar__item">About</a>
+        <a href="#about" class="navbar__item">About</a>
         <a href="#" class="navbar__item">Skills</a>
-        <a href="#" class="navbar__item">Works</a>
+        <a href="#works" class="navbar__item">Works</a>
         <a href="#" class="navbar__item">CV</a>
         <a href="#" class="btn">Download CV</a>
     </div>
 </header>
-<section class="about">
+<section class="about" id="about">
     <div class="container">
         <p class="about__subtitle">
             Hello World! I'm
@@ -66,12 +67,117 @@
             experience in web application development.
         </p>
         <p class="about__text">
-            Mostly I work with <span class="teal">React</span>, <span class="teal">React Native</span>, <span class="teal">NodeJS (Express/Nest)</span>.
+            Mostly I work with <span class="teal">React</span>, <span class="teal">React Native</span>, <span
+                class="teal">NodeJS (Express/Nest)</span>.
         </p>
         <p class="about__text">
             I have created various web applications of different levels of
             complexity.
         </p>
+        <p class="about__text">
+            And I'm looking for a good job now!
+        </p>
+    </div>
+</section>
+<section class="works" id="works">
+    <div class="container">
+        <div class="section__title__wrapper">
+            <h2 class="section__title">
+                01. latest works
+            </h2>
+        </div>
+
+        <div class="works">
+            <div class="works__item__card">
+                <div class="works__item__img__wrapper">
+                    <img src="/res/img/protocolgemini.jpg" alt="work 1 img" class="works__item__img">
+                </div>
+                <div class="works__item__info">
+                    <p class="works__item__type">Landing Page</p>
+                    <p class="works__item__title">PROTOCOL: GEMINI</p>
+                    <p class="works__item__description">
+                        This project was made in collaboration with <a
+                            href="https://www.coreblocks.io/">coreblocks.io</a>.
+                        I created this website using <span class="teal">React</span>, then I configurated <span
+                            class="teal">Nginx</span> on <span class="teal">Ubuntu</span> server to deploy it.
+                    </p>
+                    <a href="https://protocolgemini.maximzaytsev.ru/" class="btn">view project</a>
+                </div>
+            </div>
+            <div class="works__item__card">
+                <div class="works__item__info works__item__info_left">
+                    <p class="works__item__type">Booking Website (DApp)</p>
+                    <p class="works__item__title">Coach K Conference</p>
+                    <p class="works__item__description">
+                        Yet another project with <a
+                            href="https://www.coreblocks.io/">coreblocks.io</a>.
+                        This website works on <span class="teal">React</span> too. I also developed backend using
+                        <span class="teal">NodeJS(Express)</span> which handles the booking form and put the data in a
+                        Google Sheets with API. Then I configurated <span
+                            class="teal">Nginx</span> on <span class="teal">Ubuntu</span> server to deploy all this
+                        stuff.
+                    </p>
+                    <a href="https://coachkconference.maximzaytsev.ru/" class="btn">view project</a>
+                </div>
+                <div class="works__item__img__wrapper">
+                    <img src="/res/img/coachk.jpg" alt="work 2 img" class="works__item__img">
+                </div>
+            </div>
+            <div class="works__item__card">
+                <div class="works__item__img__wrapper">
+                    <img src="/res/img/gupschedule.jpg" alt="work 3 img" class="works__item__img">
+                </div>
+                <div class="works__item__info">
+                    <p class="works__item__type">Android Application</p>
+                    <p class="works__item__title">GUP Schedule</p>
+                    <p class="works__item__description">
+                        This standalone app for <a
+                            href="https://gup.ru/">GUP University</a> students works on <span
+                            class="teal">React Native</span>.
+                        This application authorizes on the
+                        official website of the university, then it parses data from the student's personal
+                        account to display it in the application. The app is available on the <span class="teal">Google Play</span>.
+                    </p>
+                    <a href="https://play.google.com/store/apps/details?id=com.gupschedule" class="btn">view project</a>
+                </div>
+            </div>
+            <div class="works__item__card">
+                <div class="works__item__info works__item__info_left">
+                    <p class="works__item__type">Android Application</p>
+                    <p class="works__item__title">Kinofree</p>
+                    <p class="works__item__description">
+                        This app was made using <span class="teal">React Native</span> and it has a server works on
+                        <span
+                                class="teal">NodeJS(Express)</span> with <span class="teal">MongoDB</span> database.
+                        It's also has a <span class="teal">Firebase</span> services integrated (<span
+                            class="teal">AdMob</span>, <span class="teal">Analytics</span>). The
+                        app is available on the <span class="teal">Google Play</span>.
+                    </p>
+                    <a href="https://play.google.com/store/apps/details?id=com.kinofree" class="btn">view project</a>
+                </div>
+                <div class="works__item__img__wrapper">
+                    <img src="/res/img/kinofree.jpg" alt="work 2 img" class="works__item__img">
+                </div>
+            </div>
+            <!--            <div class="works__item__card">-->
+            <!--                <div class="works__item__img__wrapper">-->
+            <!--                    <img src="/res/img/serialsfree.jpg" alt="work 3 img" class="works__item__img">-->
+            <!--                </div>-->
+            <!--                <div class="works__item__info">-->
+            <!--                    <p class="works__item__type">Android Application</p>-->
+            <!--                    <p class="works__item__title">Serialsfree</p>-->
+            <!--                    <p class="works__item__description">-->
+            <!--                        This standalone app for <a-->
+            <!--                            href="https://gup.ru/">GUP University</a> students works on <span class="teal">React Native</span>.-->
+            <!--                        This application authorizes on the-->
+            <!--                        official website of the university, then it parses data from the student's personal-->
+            <!--                        account to display it in the application. The app is available on the <span class="teal">Google Play</span>.-->
+            <!--                    </p>-->
+            <!--                    <a href="https://play.google.com/store/apps/details?id=com.serialsfree" class="btn">view project</a>-->
+            <!--                </div>-->
+            <!--            </div>-->
+        </div>
+
     </div>
 </section>
 </body>

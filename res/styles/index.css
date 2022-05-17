@@ -1,5 +1,5 @@
 body {
-    background: rgba(5, 5, 5, 0.89);
+    background: #202020;
     font-family: 'Courier Prime', monospace;
     color: white;
 }
@@ -12,7 +12,28 @@ p {
     letter-spacing: 1px;
 }
 
+a {
+    color: white;
+}
+
+a:hover {
+    color: #009688;
+}
+
 .teal {
     color: #009688;
 }
 
+.section__title__wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.section__title {
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 2px white solid;
+    letter-spacing: 1px;
+}
